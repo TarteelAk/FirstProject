@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+.active{
+    font-weight: bold;
+
+}
+body {
+  font-family: "Roboto", sans-serif;
+  height: 666666px;
+}
+
+.container {
+  width: calc(100% - 120px);
+  margin: auto;
+ 
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color:  #FFF;;
+  box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+  padding: 13px 0;
+
+  
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+header .logo img {
+  width: 20px;
+}
+header .logo a {
+    color: #545BE8;;
+}
+ header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap :25px;
+    color :#101928;
+ }
+ header nav ul li a{
+    color :#101928;
+ }
+ header .auth{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:10px;
+ }
+ header .auth a{
+  padding: 5.354px 20.181px;
+  border-radius: 6.5px;
+  font-family: Inter;
+
+ }
+
+ header .auth a:nth-child(1){
+    color: #545BE8;
+    border: 2px solid  #545BE8;;
+ }
+ header .auth a:nth-child(2){
+  background-color: #545BE8;
+  border: 2px solid  #545BE8;;
+  color: #FFF;
+  
+
+}
+
+ 
